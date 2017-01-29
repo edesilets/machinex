@@ -59,9 +59,7 @@ webpackJsonp([0],[
 
 	  if (search.environment === 'development' || location.hostname === 'localhost' && search.environment !== 'production') {
 	    if (!(config.apiOrigin = config.apiOrigins.development)) {
-	      var port = +'no'.split('').reduce(function (p, c) {
-	        return p + c.charCodeAt().toString(16);
-	      }, '');
+	      var port = 8080;
 	      config.apiOrigin = 'http://localhost:' + port;
 	    }
 	  } else {
