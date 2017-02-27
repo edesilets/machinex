@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	// vertical-align: baseline;
+  color: $pink-color;
+}
+body {
+  background: $body-color;
+  font-family: $body-text;
+  font-size: 1.25em;
+}
+
+nav {
+ border: $nav-color;
+ border-style: solid;
+ background: $nav-color;
+}
+
+ul {
+  padding-left: 10%;
+}
+
+li {
+  padding: 0.5em;
+  text-align: center;
+  display: inline;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.company-name {
+    text-align: center;
+}
+
+h1 {
+  font-family: $company-name;
+  font-size: 6em;
+  color: red;
+  margin-bottom: 1%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 5em;
+}
+
+footer {
+  text-align: center;
+}
+
+article {
+  text-align: center;
+  color: $pink-color;
+}
+
+div {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+header {
+  padding: 25%;
+}
+
+img {
+  height: 10em;
+  width: 33%;
+}
+
+footer {
+  padding: 1rem;
+}
+
+dt {
+  display: inline-block;
+  min-width: 100px;
+  padding-right: 0.5rem;
+}
+
+dt::after {
+  content: ":";
+}
+
+dd {
+  display: inline;
+}
+
+.parts {
+  background: $accent-color;
+}
+
+.capacity {
+  background: $accent-color;
+}
+
+.experience {
+  background: $accent-color;
+}
+
+.employee {
+  display: inline-block;
+  width:  15%;
+  border: 10px solid;
+}
+
+.employee img {
+  height: 150px;
+  width: 150px;
+  border: 10px solid;
+  border-radius: 100%;
+}
+
+.employee p {
+  padding-top: 0.5em;
+  text-align: center;
+}
