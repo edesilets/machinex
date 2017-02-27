@@ -32,6 +32,8 @@ indent_size = 2
 [*.html]
 indent_style = space
 indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
 
 [*.{diff,md}]
 trim_trailing_whitespace = false
